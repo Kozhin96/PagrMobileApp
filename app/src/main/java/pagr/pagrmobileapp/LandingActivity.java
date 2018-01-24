@@ -11,8 +11,6 @@ public class LandingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
 
-        final TextView WelcomeMessage = (EditText) findViewById(R.id.tvWelcomeMessage);
-        final EditText userName = (EditText) findViewById(R.id.userName);
-        final EditText userAge = (EditText) findViewById(R.id.userAge);
+
     }
 }

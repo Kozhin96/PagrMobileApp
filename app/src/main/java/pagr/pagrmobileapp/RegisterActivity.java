@@ -9,5 +9,11 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
+        final EditText userName = (EditText) findViewById(R.id.userName);
+        final EditText userEmail = (EditText) findViewById(R.id.userEmail);
+        final EditText userPassword = (EditText) findViewById(R.id.userPassword);
+        final EditText userAge = (EditText) findViewById(R.id.userAge);
+        final Button bRegister = (Button) findViewById(R.id.bRegister);
     }
 }
